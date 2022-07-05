@@ -19,7 +19,7 @@ class ContactController extends Controller
         $contact->submit = $req->input('submit');
         $contact->message = $req->input('message');
         $contact->file = $req->input('file');
-        $contact->save();
+        $contact->save(); //раскладывает по секторам и сохроняет заявку
 
         return redirect()->route('home');
     }

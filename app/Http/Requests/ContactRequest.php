@@ -29,7 +29,7 @@ class ContactRequest extends FormRequest
             "submit" =>'required|max:50',
             "message" =>'required|min:15|max:500',
             "file" =>'required|mimes:png,jpeg,jpg,pdf'
-        ];
+        ]; ///Валидация по указаным пораметрам
     }
 
     public function messages()

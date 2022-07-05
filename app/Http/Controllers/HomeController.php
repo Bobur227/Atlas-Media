@@ -28,6 +28,6 @@ class HomeController extends Controller
         $contacts = Contact::all();
         return view('home', [
             'contacts' => $contacts,
-        ]);
+        ]);//Берет данные из бд и отправляет в Переменное $contacts
     }
 }
