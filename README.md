@@ -4,9 +4,10 @@
 
 `` composer install ``
 
+#### 2. DB
+Из папки `` BD  `` возмите фаил  .sql и импартируите на свой localhost.
 
-
-#### 2. Laravel
+#### 3. Laravel
 
 `` php artisan storage:link  ``
 
