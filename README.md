@@ -14,3 +14,10 @@
 `` php artisan migrate --seed ``
 
 `` php artisan serve ``
+
+
+
+#### Admin: 
+
+Email:  `` admin@admin.com ``
+Password:  `` password ``
